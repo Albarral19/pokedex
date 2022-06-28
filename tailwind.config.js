@@ -15,6 +15,10 @@ module.exports = {
         red: {
           500: '#D93E30'
         },
+        emerald: {
+          400: '#73D677',
+          500: '#5EAF62'
+        },
         white : '#F6F7F9',
         black : '#212121'
       },
