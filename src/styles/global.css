@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-yellow-500;
   -webkit-font-smoothing: antialiased;
 }
