@@ -1,10 +1,10 @@
-import { Header } from "../components/Header";
+import { Navbar } from "../components/Navbar";
 import imgHome from '../assets/pokemon-home.png'
 
 export function Home() {
   return (
     <div className="min-h-screen bg-yellow-500 bg-gradient-to-t from-yellow-600">
-      <Header/>
+      <Navbar/>
       <main className="container mx-auto px-24 flex items-center justify-between">
         <div className="pt-24 w-[516px]">
           <h1 className="text-7xl tracking-widest"><strong>Find</strong> all your favorite <strong>Pokemon</strong></h1>
