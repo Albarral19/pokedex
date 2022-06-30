@@ -10,14 +10,14 @@ export function Navbar() {
       <nav className="bg-yellow-500">
         <div className="w-full h-auto p-4 md:p-6 lg:p-8 shadow-xl">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
+            <div className="flex">
               <div className="flex-shrink-0">
                 <a
                   className=""
                   href="#">
                   <LogoPokemon />
                 </a>
-              </div>              
+              </div>
               <div className="hidden md:block">
                 <div className="ml-10 font-medium text-2xl text-black flex items-baseline space-x-4">
                   <a
@@ -73,10 +73,10 @@ export function Navbar() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="font-medium text-3xl text-black flex flex-col items-center">                
+              <div ref={ref} className="font-medium text-3xl text-black flex flex-col items-center">
                 <a
                   href="#"
-                  className="p-3 hover:underline">                  
+                  className="p-3 hover:underline">
                   Home
                 </a>
                 <a
