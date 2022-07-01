@@ -9,7 +9,7 @@ export function Navbar() {
     <div>
       <nav className="bg-yellow-500">
         <div className="w-full h-auto p-4 md:p-6 lg:p-8 shadow-xl">
-          <div className="flex items-center justify-between h-16">
+          <div className="flex items-center content-between h-16">
             <div className="flex">
               <div className="flex-shrink-0">
                 <a
