@@ -9,38 +9,34 @@ export function Navbar() {
     <div>
       <nav className="bg-yellow-500">
         <div className="w-full h-auto p-4 md:p-6 lg:p-8 shadow-xl">
-          <div className="flex items-center content-between h-16">
-            <div className="flex">
-              <div className="flex-shrink-0">
+          <div className="flex justify-between h-16">
+            <a
+              className=""
+              href="#">
+              <LogoPokemon />
+            </a>
+            <div className="hidden md:flex">
+              <div className="ml-10 font-medium text-2xl text-black flex items-baseline space-x-4">
                 <a
-                  className=""
-                  href="#">
-                  <LogoPokemon />
+                  href="#"
+                  className="p-3 hover:underline">
+                  Home
                 </a>
-              </div>
-              <div className="hidden md:block">
-                <div className="ml-10 font-medium text-2xl text-black flex items-baseline space-x-4">
-                  <a
-                    href="#"
-                    className="p-3 hover:underline">
-                    Home
-                  </a>
-                  <a
-                    href="#"
-                    className="p-3 hover:underline">
-                    Pokedex
-                  </a>
-                  <a
-                    href="#"
-                    className="p-3 hover:underline">
-                    Legendaries
-                  </a>
-                  <a
-                    href="#"
-                    className="p-3 hover:underline">
-                    Docs
-                  </a>
-                </div>
+                <a
+                  href="#"
+                  className="p-3 hover:underline">
+                  Pokedex
+                </a>
+                <a
+                  href="#"
+                  className="p-3 hover:underline">
+                  Legendaries
+                </a>
+                <a
+                  href="#"
+                  className="p-3 hover:underline">
+                  Docs
+                </a>
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
